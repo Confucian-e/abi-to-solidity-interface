@@ -1,0 +1,18 @@
+{
+  "name": "abi-to-solidity-interface",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "abi",
+    "interface"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Confucian-e/abi-to-solidity-interface"
+  },
+  "author": "Confucian",
+  "license": "ISC",
+  "description": "Convert Ethereum ABI to Solidity Interface"
+}
