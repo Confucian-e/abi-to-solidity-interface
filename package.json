@@ -1,7 +1,10 @@
 {
   "name": "abi-to-solidity-interface",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.ts",
+  "files": [
+    "src/index.ts"
+  ],
   "keywords": [
     "ethereum",
     "solidity",
