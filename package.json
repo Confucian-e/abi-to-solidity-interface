@@ -1,9 +1,10 @@
 {
   "name": "abi-to-solidity-interface",
-  "version": "0.0.2",
-  "main": "src/index.ts",
+  "version": "0.1.0",
+  "main": "lib/index.js",
   "files": [
-    "src/index.ts"
+    "src/",
+    "lib/"
   ],
   "keywords": [
     "ethereum",
@@ -11,11 +12,17 @@
     "abi",
     "interface"
   ],
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Confucian-e/abi-to-solidity-interface"
   },
   "author": "Confucian",
   "license": "ISC",
-  "description": "Convert Ethereum ABI to Solidity Interface"
+  "description": "Convert Ethereum ABI to Solidity Interface",
+  "peerDependencies": {
+    "typescript": "5.x"
+  }
 }

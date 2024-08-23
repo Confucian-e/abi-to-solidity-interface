@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "outDir": "lib",
+    "baseUrl": ".",
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src", "test"]
+}
